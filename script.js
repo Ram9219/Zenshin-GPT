@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeModalBtn = document.getElementById('close-modal');
     const completeExerciseBtn = document.getElementById('complete-exercise');
 
-    const GEMINI_API_KEY = 'AIzaSyAVZUoyt2g92abKvO6o4hKAMAG8-xH-LaE'; // Add your Gemini API key here
+    const GEMINI_API_KEY = 'AIzaSyD1FhU0T7dAKx4vD4QTe8nsrlcK90OwMC4'; // Add your Gemini API key here
     const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
     const exercises = {
@@ -226,3 +226,4 @@ document.addEventListener('DOMContentLoaded', function () {
         addMessage("I'm here to help you cultivate mindfulness and find calm in your daily life. 😊");
     }, 1500);
 });
+
